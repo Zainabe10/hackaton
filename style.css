@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+.image-container .text {
+  background: rgba(0,0,0,0,8,);
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  margin: 0 auto;
+  left:0;
+  right:0;
+  top:30%;
+  color:white;
+  width: 70%;
+}
+h1 {
+  position: relative;
+  z-index: 2; /* au-dessus du fond */
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); /* fond semi-transparent */
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  text-shadow: 2px 2px 4px #000;
+}
+.signature{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  text-align: center;
+  background-color: #e63946;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #d62828;
+}
